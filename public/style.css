@@ -1,0 +1,63 @@
+#main_text,#font_names,.topnav,#train_label,#about_text{
+	position:relative;
+	width:60vw;
+	left:20vw;
+}
+
+.ghost_button{
+	text-align:center;
+	position:relative;
+	left:20vw;
+	border:1px solid black;
+	width:5vw;
+	padding:0.5vw 0.25vw 0.5vw 0.25vw;
+	cursor: pointer;
+	background:#FFFFFF;
+}
+
+.ghost_button:hover{
+	background:lightgray;
+}
+
+#main_text{
+	margin-top:10vh;
+	margin-bottom:5vh;
+	font-size: 100%;
+}
+
+#font_names{
+	text-align:right;
+}
+
+#logo{
+	text-align:center;
+}
+
+.topnav{
+	text-align: center;
+}
+
+a{
+	color:black;
+	margin:0 1vw 0 1vw;
+}
+
+a:hover{
+	color:gray;
+}
+
+body{
+	background:#FFFFFF;
+}
+
+#font_names,.topnav,a,#logo,#train_label,#about_text{
+	font-family: 'Kanit', sans-serif;
+}
+
+h2{
+	font-size:120%;
+}
+
+#about_text{
+	margin-top:10vh;
+}
